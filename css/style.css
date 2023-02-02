@@ -1,0 +1,115 @@
+
+h1{
+  font-size: 88px;
+  font-weight: 800;
+}
+
+h2{
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.banner-container{
+  background-color: none;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.right-arrow{
+  background-color: var(--magenta);
+  border: transparent;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.banner-container .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#illustration-image{
+  height: 100%;
+  flex: 1 1 100%;
+}
+
+.banner-container p{
+  background-color: none;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+input
+{
+  background-color: var(--cardcolor);
+  padding: 10px;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.about{
+  height: 300px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.address{
+  color: var(--magenta);
+  text-decoration-line: underline;
+}
+
+.social-media img{
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  padding-top: 30px;
+}
+
+.grid-item{
+  height: 400px;
+  background-color: var(--cardcolor);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+#beans{
+  width: 70%;
+  height: 60%;
+  border-radius: 16px;
+  background-color: red;
+}
+
+.buybtn{
+  background-color: var(--magenta);
+  border: transparent;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 428px){
+    .grid-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .img-container{
+      display: none;
+    }
+  }

@@ -1,0 +1,98 @@
+:root{
+  --magenta: #ff5678;
+  --cardcolor: #f6f2ef;
+  --backgrounddark: #1d1c1c;
+  --accentgreen: #149770;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin-left: 10px;
+}
+
+h1, h2 {
+ font-family: 'Nunito', sans-serif;
+}
+
+p, a {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.other-links{
+  background-color: none;
+  margin-right: 30px;
+}
+
+.other-links a{
+  margin-right: 20px;
+}
+
+#login{
+  color: white;
+  background-color: var(--magenta);
+  border-radius: 16px;
+  padding: 5px 30px;
+}
+
+.nav-container{
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#productname{
+  font-size: 20px;
+}
+
+#pricing{
+  font-size: 20px;
+}
+
+footer{
+  height: 200px;
+  padding: 10px;
+  background-color: var(--backgrounddark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 810px){
+  .grid-container{
+  grid-row-gap: 10px;
+}
+
+  .nav-container{
+    flex-direction: column;
+  }
+
+.img-container{
+  margin-top: 100px;
+  height: 220px;
+  width: 302px;
+
+}
+  #illustration-image{
+    align-items: baseline;
+    }
+}
